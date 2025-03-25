@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZLQyLM9a8g=",
+  "dgSpecHash": "OdrFmyB0aAc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd\\BackEnd.csproj",
+  "projectFilePath": "c:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\19540\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.14\\microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",
     "C:\\Users\\19540\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

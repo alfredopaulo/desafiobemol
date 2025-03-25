@@ -1,0 +1,4 @@
+[ ] - Criar conexao com o banco SQLite
+[ ] - Rota que retorna todos os usuarios e seus id's
+[ ] - Rota pra cadastrar feedback
+[ ] - Rota para listar feedback's

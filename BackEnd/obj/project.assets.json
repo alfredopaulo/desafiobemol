@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd\\BackEnd.csproj",
+      "projectUniqueName": "c:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd.csproj",
       "projectName": "BackEnd",
-      "projectPath": "C:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd\\BackEnd.csproj",
+      "projectPath": "c:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd.csproj",
       "packagesPath": "C:\\Users\\19540\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\BackEnd\\obj\\",
+      "outputPath": "c:\\Users\\19540\\Desktop\\desafio-bemol\\desafiobemol\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\19540\\AppData\\Roaming\\NuGet\\NuGet.Config"
