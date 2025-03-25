@@ -1,0 +1,21 @@
+.cardOptions {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #555;
+
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cardOptions:hover {
+  transform: scale(1.2);
+}
