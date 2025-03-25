@@ -11,4 +11,6 @@ public class DataContext : DbContext
 
     public DbSet<User> Users { get; set; }
     public DbSet<Feedback> Feedbacks { get; set; }
+    public DbSet<PDI> PDI { get; set; }
+    public DbSet<Objective> Objectives { get; set; }
 }
