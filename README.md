@@ -1,23 +1,23 @@
 # desafiobemol
 
-# Desafio: Gestão de Pessoas
+# Desafio: GestÃ£o de Pessoas
 
-## Descrição do Desafio
+## DescriÃ§Ã£o do Desafio
 
-Este desafio tem como objetivo desenvolver um sistema de gestão de pessoas com funcionalidades específicas para feedback 1x1 e Plano de Desenvolvimento Individual (PDI).
+Este desafio tem como objetivo desenvolver um sistema de gestÃ£o de pessoas com funcionalidades especÃ­ficas para feedback 1x1 e Plano de Desenvolvimento Individual (PDI).
 
 ## Funcionalidades
 
 ### Feedback 1x1
 
 - Permitir que gestores realizem feedbacks individuais com seus colaboradores.
-- Registrar e visualizar o histórico de feedbacks.
-- Enviar notificações de lembrete para os feedbacks agendados.
+- Registrar e visualizar o histÃ³rico de feedbacks.
+- Enviar notificaÃ§Ãµes de lembrete para os feedbacks agendados.
 
 ### Plano de Desenvolvimento Individual (PDI)
 
 - Permitir que colaboradores criem e atualizem seus PDIs.
-- Registrar objetivos, metas e ações de desenvolvimento.
+- Registrar objetivos, metas e aÃ§Ãµes de desenvolvimento.
 - Acompanhar o progresso dos PDIs ao longo do tempo.
 
 ## Tecnologias Aceitas
@@ -34,6 +34,6 @@ react
 
 Estrutura do Projeto
 
-- /backend: Contém o código do servidor backend.
-- /frontend: Contém o código do aplicativo frontend.
+- /backend: ContÃ©m o cÃ³digo do servidor backend.
+- /frontend: ContÃ©m o cÃ³digo do aplicativo frontend.
 - README.md: Este arquivo.
