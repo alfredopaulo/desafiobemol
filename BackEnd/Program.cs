@@ -1,8 +1,15 @@
+using BackEnd.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add SQLite configuration
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlite("Data Source=database.db"));
 
 var app = builder.Build();
 
