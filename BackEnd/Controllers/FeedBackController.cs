@@ -24,7 +24,7 @@ namespace BackEnd.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetFeedback(string id)
+        public async Task<IActionResult> GetFeedback(int id)
         {
             var feedback = await _context.Feedbacks.FindAsync(id);
 
@@ -35,7 +35,7 @@ namespace BackEnd.Controllers
         }
 
         [HttpGet("received/{userReceiverId}")]
-        public async Task<IActionResult> GetReceivedFeedbacks(string userReceiverId)
+        public async Task<IActionResult> GetReceivedFeedbacks(int userReceiverId)
         {
             var feedbacks = await _context.Feedbacks
                 .Where(f => f.UserReceiver == userReceiverId)
@@ -44,7 +44,7 @@ namespace BackEnd.Controllers
         }
 
         [HttpGet("sent/{userId}")]
-        public async Task<IActionResult> GetSentFeedbacks(string userId)
+        public async Task<IActionResult> GetSentFeedbacks(int userId)
         {
             var feedbacks = await _context.Feedbacks
                 .Where(f => f.UserId == userId)
@@ -62,7 +62,7 @@ namespace BackEnd.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteFeedback(string id)
+        public async Task<IActionResult> DeleteFeedback(int id)
         {
             var feedback = await _context.Feedbacks.FindAsync(id);
             if (feedback == null)
@@ -72,11 +72,6 @@ namespace BackEnd.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
-        }
-
-        private bool FeedbackExists(string id)
-        {
-            return _context.Feedbacks.Any(e => e.Id == id);
         }
     }
 }

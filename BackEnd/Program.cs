@@ -7,6 +7,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Adicionar política de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin() // Permite qualquer origem
+              .AllowAnyMethod() // Permite qualquer método (GET, POST, etc.)
+              .AllowAnyHeader(); // Permite qualquer cabeçalho
+    });
+});
+
 // Configurar o Kestrel para escutar em todos os endereços
 builder.WebHost.ConfigureKestrel(options =>
 {
@@ -25,6 +36,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Ativar o CORS
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 app.MapControllers();
